@@ -55,6 +55,10 @@ house engines.
     perft pos6  d1 46  d2 2079 d3 89890 d4 3894594
     castling position d3 15206
 
+Measured on the trial-0 gauntlet (six games against the house engines):
+
+    W W W W D L   4.5 / 6   Elo 1545   wall 1034 s   slowest move 4551 ms
+
 ## Grade it locally
 
     python run_trial.py --trial tiny-chess-01-kit/practice/trial-0 \
